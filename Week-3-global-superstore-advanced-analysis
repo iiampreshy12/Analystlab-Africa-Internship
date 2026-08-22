@@ -1,0 +1,62 @@
+# Advanced Data Analysis, KPI Development & Business Intelligence Dashboard
+### AnalystLab Africa — Data Analytics Internship | Week 3
+
+An advanced, multi-KPI Power BI dashboard continuing the [Global Superstore dataset](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset) analysis from Week 2, going deeper into profitability, discounting behaviour, and regional/product-level performance for a global retail client.
+
+## Business Problem
+
+Following the executive overview delivered in Week 2, leadership requested a deeper analysis to identify what is actually driving — and limiting — profitability across markets, categories, and products, and to translate those findings into concrete, evidence-based recommendations.
+
+## Approach
+
+1. **Project Continuity** — reviewed Week 2 findings and identified specific areas requiring deeper investigation
+2. **Advanced Business Analysis** — discount impact, product-level performance, time-based trends, regional depth, and customer segment profitability
+3. **KPI & DAX Development** — 6 KPIs and 9 DAX measures, including profit margin, average discount, and loss-making order/product counts
+4. **Time-Based Analysis** — monthly, quarterly, and yearly sales and profit trends
+5. **Business Problem Investigation** — 4 specific problems identified and investigated with supporting evidence
+6. **Interactive Dashboard** — a single-page Power BI dashboard with 12+ visualisations and 5 slicers
+7. **Business Insights & Recommendations** — 6 insights and 6 evidence-based recommendations
+
+## Key Findings
+
+| Driver | Finding |
+|---|---|
+| Discounting | Average profit per order turns **negative beyond a 20% discount**, with losses deepening sharply past 40% |
+| Product performance | **65 products** generate over $10,000 in sales each while still posting a net loss |
+| Regional | **EMEA** has the lowest profit margin of any market (5.4%) and the highest average discount (20%) — the two are directly linked |
+| Segment | **Home Office** is the most efficient segment by margin (12.0%), even though Consumer leads on total volume |
+| Seasonality | **Q4** (Sep–Dec) is the strongest quarter in every year of the dataset without exception |
+
+## Tools
+
+- **Microsoft Power BI** (Power Query, DAX, data modelling, interactive dashboards, scatter/matrix/treemap visuals)
+- **Excel** for source data review
+
+## Repository Contents
+
+| File | Description |
+|---|---|
+| `Global_Superstore_Week3_Dashboard.pbix` | Power BI dashboard file |
+| `Global_Superstore_Week3_Dashboard_Export.pdf` | Exported dashboard (PDF) |
+| `AnalystLab_Week3_Project_Continuity_Summary.docx` | Review of Week 2 findings and Week 3 focus areas |
+| `AnalystLab_Week3_Advanced_Business_Analysis.docx` | Deeper analysis: discounts, products, time, region, segment |
+| `AnalystLab_Week3_Business_Insights_and_Recommendations.docx` | Business problems, insights, and recommendations |
+| `AnalystLab_Week3_DAX_Measures_Documentation.docx` | Explanation of all DAX measures used |
+
+## Key Recommendations
+
+1. Cap discounts at 20% on Furniture and in EMEA
+2. Review pricing on the Apple Smart Phone and similar high-sales, low-margin products
+3. Discontinue or renegotiate supplier terms for chronic loss-making products
+4. Replicate APAC's pricing and discount discipline in EMEA
+5. Prioritise Q4 inventory and staffing planning
+6. Shift marketing emphasis toward Technology and Home Office
+
+## Author
+
+**Osagie Osagieduwa Precious**
+Data Analyst — AnalystLab Africa Data Analytics Internship
+#AnalystLabAfrica
+
+---
+*This project was completed as part of the AnalystLab Africa Data Analytics Internship Programme, Week 3 assignment, continuing directly from the Week 2 Global Superstore project.*
